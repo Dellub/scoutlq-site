@@ -38,7 +38,7 @@ export function Menu() {
                             className="flex h-full w-full select-none flex-col justify-end rounded-md bg-primary/10 p-4 no-underline outline-none focus:shadow-md"
                             href={menu.content.main.href}
                           >
-                            <div className="flex items-center justify-center w-10 min-h-10 [&_svg]:size-6 p-1 bg-[#081F56]/30 text-[#081F56] rounded-full">
+                            <div className="flex items-center justify-center w-fit min-w-10 min-h-10 [&_svg]:size-6 p-1 bg-[#081F56]/30 text-[#081F56] dark:text-white rounded-full">
                               <menu.content.main.icon />
                             </div>
                             <div className="mb-2 mt-4 text-lg font-medium group-hover:text-primary">
